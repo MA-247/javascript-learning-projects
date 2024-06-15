@@ -1,0 +1,32 @@
+            .task-name{
+                padding : 10px;
+            }
+            .date{
+                padding: 9px;
+            }
+            .add-button{
+                padding: 10px;
+                width: 100px;
+                color: white;
+                background-color: green;
+                border: none;
+            }
+
+            .deleteButton
+            {
+                padding: 10px;
+                width: 100px;
+                color: white;
+                background-color: red;
+                border: none;
+            }
+            .task-para{
+                padding-right: 10px;
+            }
+            .output-grid{
+                display: grid;
+                grid-template-columns: 200px 150px 100px;
+                column-gap:15px;
+                row-gap: 10px;
+
+            }

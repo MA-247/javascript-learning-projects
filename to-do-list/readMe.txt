@@ -1,0 +1,2 @@
+A simple to do list from the SuperSimpleDev JavaScript Course.
+Additions: I added the localStorage functionality to the project which stores the task in the localStorage hence the data is not lost if the session is restarted.
