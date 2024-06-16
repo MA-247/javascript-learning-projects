@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Rock Paper Scissors</title>
+
+    <style>
+        .move-icon{
+            height: 50px;
+            margin : 20px;
+            border:solid;
+            border-radius: 100px;
+            padding: 30px;
+            cursor: pointer;
+        }
+
+        #result-icon{
+            height: 50px;
+        }
+        #final-result{
+            display: inline-block;
+            margin: 5px;
+        }
+
+    </style>
+</head>
+    <body style="background-color: black; color: white;">
+        <h1>Rock Paper Scissors</h1>
+        <img class="move-icon" src="rock-emoji.png" onclick="selectedRock()">
+        <img class="move-icon" src="paper-emoji.png" onclick="selectedPaper()">
+        <img class="move-icon" src="scissors-emoji.png" onclick="selectedScissors()">
+        <!-- <button id="rock" name="rock" onclick="selectedRock">Rock</button>
+        <button id="paper" name="paper" onclick="selectedPaper">Paper</button>
+        <button id="scissors" name="scissors" onclick="selectedScissors">Scissors</button>-->
+        <h1 id="result"></h1>
+        
+        <p style="padding: 20px;">
+         You 
+        <img id='result-icon' class='result-icon1' src="">
+        
+        <img id='result-icon' class='result-icon2' src="">
+        Com
+        </p>
+
+        <h3>Wins:
+        <p id="win"></p>
+        Losses:
+        <p id="loss"></p>
+        </h3>
+    
+    <button id="reset" name="reset" onclick="resetScore()">Reset Score</button> 
+    <button id="autoplay" class="autoplay" onclick="autoPlay()">Autoplay</button>
+
+        
+        <script src="rock-paper-scissors.js"></script>
+    </body>
+    
+</html>
